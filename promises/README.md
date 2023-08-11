@@ -1,7 +1,7 @@
 ## What is a promise
- - Its a object representing the eventual completion or failure of asynchronous operations
+  Its a object representing the eventual completion or failure of asynchronous operations
 
- - In essences, a promise is basically a returned object to which you attach callbacks, instead of passing into a function. 
+  In essence, a promise is a returned object to which you attach callbacks instead of passing into a function. 
 
  The Api design of promises make it great to create longer chains of processing, where each process represent the completion of one asychronous step in the chain.
  
