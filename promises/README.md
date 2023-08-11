@@ -29,7 +29,7 @@
         console.log(`got the final result ${finalResult}`)
     })
  ```
- As you do all that, remember to always makes sure the promise is returned. Otherwiaw callbacks won't catch the result of a previous promise.
+ As you do all that, remember to always makes sure the promise is returned. Otherwise callbacks won't catch the result of a previous promise.
 
  For example, if a previous handler didn't return a promise, there is no way to track its settlement anymore. The promise is said to be floating.
 
