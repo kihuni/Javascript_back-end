@@ -1,8 +1,21 @@
 ## What is a promise
- - Its a object representing the eventual completion or failure of asynchronous operations
+ - Its a object representing the eventual completion or failure of asynchronous operations and its resulting value
 
  - In essences, a promise is basically a returned object to which you attach callbacks, instead of passing into a function. 
 
+
+ ```
+ You can also define a promise as a proxy for a value, which allows you to associate handlers with asynchronous actions eventual success value or actions.This allows asychronous methods to return values like sychronous methods: instead of immediately returning the final value, the asychronous method returns a promise to supply the value at some point in the future.
+
+```
+Promise always is in one of these states. Either:
+
+    pending: initial state, neither fulfilled nor rejected
+    fulfilled: meaning that operatons completely successful
+    rejected: meaning that operation failed
+
+  ![picture showing the process of promise states](https://github.com/kihuni/Javascript_back-end/blob/main/Screenshot%20from%202023-08-16%2002-31-19.png)
+              
  The Api design of promises make it great to create longer chains of processing, where each process represent the completion of one asychronous step in the chain.
  
  Example of Chaining:
@@ -64,4 +77,3 @@ doSomething()
     // will return an empty[], because the promise was not returned. fetch request hasn't completed yet.
   })
 ```
-## Using asyc and await
