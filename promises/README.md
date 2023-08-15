@@ -1,7 +1,7 @@
 ## What is a promise
  - Its a object representing the eventual completion or failure of asynchronous operations and its resulting value
 
- - In essences, a promise is basically a returned object to which you attach callbacks, instead of passing into a function. 
+  In essence, a promise is a returned object to which you attach callbacks instead of passing into a function. 
 
 
  ```
@@ -42,7 +42,7 @@ Promise always is in one of these states. Either:
         console.log(`got the final result ${finalResult}`)
     })
  ```
- As you do all that, remember to always makes sure the promise is returned. Otherwiaw callbacks won't catch the result of a previous promise.
+ As you do all that, remember to always makes sure the promise is returned. Otherwise callbacks won't catch the result of a previous promise.
 
  For example, if a previous handler didn't return a promise, there is no way to track its settlement anymore. The promise is said to be floating.
 
