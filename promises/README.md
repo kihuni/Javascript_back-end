@@ -77,3 +77,19 @@ doSomething()
     // will return an empty[], because the promise was not returned. fetch request hasn't completed yet.
   })
 ```
+## Promise concurrency
+ The promise class offers four static methods to facilitate asyc task concurrency
+
+ - promise.all()
+ Fulfills when all of the promises fulfills;rejects  when any of the promise rejects
+
+ - promise.allSettled()
+ Fulfils when all promises settle
+
+ - promise.any()
+ Fulfils when any of the promises fulfills;rejects when all of the promise reject
+
+ - promise.race()
+ Settles when any of the promises settles.in other words, fulfills when any of the promises fulfills;rejects when any of the promise rejects
+
+ 
