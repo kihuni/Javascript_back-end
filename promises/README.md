@@ -94,4 +94,6 @@ doSomething()
  - promise.race()
  Settles when any of the promises settles.in other words, fulfills when any of the promises fulfills;rejects when any of the promise rejects
 
+ ## [Examples]()
+
  
