@@ -94,7 +94,7 @@ doSomething()
  - promise.race()
  Settles when any of the promises settles.in other words, fulfills when any of the promises fulfills;rejects when any of the promise rejects
 
- ## [Examples]()
+ ## [Examples](https://github.com/kihuni/Javascript_back-end/tree/main/promises/Examples)
 
  N/B All the illustrations and examples provided are sourced from MDN. For further details, check out their website [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
