@@ -96,4 +96,6 @@ doSomething()
 
  ## [Examples]()
 
+ N/B All the illustrations and examples provided are sourced from MDN. For further details, check out their website [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+
  
