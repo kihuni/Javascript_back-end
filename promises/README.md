@@ -1,13 +1,10 @@
 ## What is a promise
- - Its a object representing the eventual completion or failure of asynchronous operations and its resulting value
 
-  In essence, a promise is a returned object to which you attach callbacks instead of passing into a function. 
+ - A promise represent the eventual result of an asynchronous operation. The primary way of interacting with a promise is through its `then` method, which registers callbacks to receive either a promise's value or the reason why the promise cannot be fulfilled.
 
+ You can also define a promise as a proxy for a value, which allows you to associate handlers with asynchronous actions eventual success value or actions. 
 
- 
-    You can also define a promise as a proxy for a value, which allows you to associate handlers with asynchronous actions eventual success value or actions. 
-    This allows asychronous methods to return values like sychronous methods: instead of immediately returning the final value, the 
-    asychronous method returns a promise to supply the value at some point in the future.
+This allows asychronous methods to return values like sychronous methods: instead of immediately returning the final value, the asychronous method returns a promise to supply the value at some point in the future.
 
 
 Promise always is in one of these states. Either:
