@@ -13,7 +13,7 @@ Promise always is in one of these states. Either:
     fulfilled: meaning that operatons completely successful
     rejected: meaning that operation failed
 
-  ![picture showing the process of promise states](https://github.com/kihuni/Javascript_back-end/blob/main/Screenshot%20from%202023-08-16%2002-31-19.png)
+  ![picture showing the process of promise states](https://github.com/kihuni/Javascript_back-end/blob/main/promises/Screenshot%20from%202023-08-16%2002-31-19.png)
               
  The Api design of promises make it great to create longer chains of processing, where each process represent the completion of one asychronous step in the chain.
  
